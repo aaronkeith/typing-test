@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: helvetica;
+}
+
+.container {
+  display: relative;
+  max-width: 996px;
+  margin: 0 auto;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 40px;
+  padding: 27px;
+  color: #47713a;
+  font-size: 3rem;
+  border: 2px solid #ddd;
+}
+
+section > p {
+  margin-top: 10px;
+  padding: 5vh 2vw;
+  height: 20vh;
+  font-size: 37px;
+  color: #444;
+  border: 2px solid #ddd;
+  text-align: center;
+}
+
+.current {
+  font-weight: bold;
+  color: #e88715;
+}
