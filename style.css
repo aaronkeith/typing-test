@@ -13,28 +13,44 @@
 }
 
 header h1 {
-  text-align: center;
   margin-top: 40px;
   padding: 27px;
-  color: #47713a;
-  font-size: 3rem;
+  text-align: center;
+  color: #393a40;
   border: 2px solid #ddd;
+  font-size: 3rem;
+}
+
+#instructions {
+  padding: 10px;
+  text-align: center;
+  color: #393a40;
+  line-height: 1.4;
 }
 
 section > p {
-
-  margin-top: 10px;
-  padding: 5vh 2vw;
-
-  margin-top: 10px;
   height: 20vh;
-  font-size: 37px;
+  margin-top: 10px;
+  padding: 6vh 3px;
+  text-align: center;
   color: #444;
   border: 2px solid #ddd;
-  text-align: center;
+  font-size: 35px;
 }
 
 .current {
+  color: #109df7;
+  border-bottom: 3px solid #333;
+  background-color: #ddd;
+  font-size: 47px;
   font-weight: bold;
-  color: #e88715;
+}
+
+.correct {
+  color: #217a13;
+}
+
+.wrong {
+  color: #eee;
+  background-color: #aa2828;
 }
