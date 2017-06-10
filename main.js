@@ -1,3 +1,4 @@
+
 var $textExampleDisplay = document.querySelector('#textExampleDisplay')
 
 var textExampleDisplay = 'An escalator can never break: it can only become stairs.'
@@ -13,7 +14,7 @@ for (var i = 0; i < textExampleDisplay.length; i++) {
   $textExampleDisplay.appendChild($char)
 }
 
-var $current = document.querySelector('span')
+var $current  = document.querySelector('span')
 $current.classList.add('current')
 
 window.addEventListener('keypress', function(event){
@@ -29,3 +30,6 @@ window.addEventListener('keypress', function(event){
   }
   return $next.classList.add('current')
 })
+
+
+
