@@ -24,7 +24,7 @@ var $incorrectDisplay = document.querySelector('#incorrect-display')
 window.addEventListener('keypress', function(event){
   var $current = document.querySelector('span.current')
   var $next = $current.nextElementSibling
-  var $activeChar = $current.innerText
+  var $activeChar = $current.innerHTML
 
   if ($activeChar === event.key) {
     $current.classList.remove('current')
