@@ -29,7 +29,7 @@ var $correctCount = 0
 var $incorrectCount = 0
 var $correctDisplay = document.querySelector('#correct-display')
 var $incorrectDisplay = document.querySelector('#incorrect-display')
-////****change class of character color based on input and add to score****////
+
 window.addEventListener('keypress', function(event){
   var $current = document.querySelector('span.current')
 
