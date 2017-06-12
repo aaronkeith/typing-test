@@ -17,14 +17,14 @@ header h1 {
   padding: 7px;
   text-align: center;
   color: #393a40;
-  border-bottom: :2px solid #ddd;
+  border-bottom: 2px solid #ddd;
   font-size: 3rem;
 }
 
 hr {
-    margin: 15px auto;
-    border-style: inset;
-    border-width: 1px;
+  margin: 15px auto;
+  border-style: inset;
+  border-width: 1px;
 }
 
 #instructions {
@@ -79,7 +79,7 @@ article.container {
 }
 
 #score-box > div {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .score-container {
