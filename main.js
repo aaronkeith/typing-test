@@ -2,11 +2,11 @@ var $textExampleDisplay = document.querySelector('#textExampleDisplay')
 
 var textExampleDisplay = 'An escalator can never break: it can only become stairs.'
 
-  function selectChar(char) {
-    var $indyChar = document.createElement('span')
-    $indyChar.textContent = char
-    return $indyChar
-  }
+function selectChar(char) {
+  var $indyChar = document.createElement('span')
+  $indyChar.textContent = char
+  return $indyChar
+}
 
 for (var i = 0; i < textExampleDisplay.length; i++) {
   var $char = selectChar(textExampleDisplay[i])
@@ -25,6 +25,7 @@ window.addEventListener('keypress', function(event){
   var $current = document.querySelector('span.current')
   var $next = $current.nextElementSibling
   var $activeChar = $current.innerText
+
   if ($activeChar === event.key) {
     $current.classList.remove('current')
     $current.classList.add('correct')
@@ -34,9 +35,11 @@ window.addEventListener('keypress', function(event){
     $current.classList.add('wrong')
     $incorrectCount++
   }
+
   $correctDisplay.textContent = $correctCount
   $incorrectDisplay.textContent = $incorrectCount
+
   if ($next === null) {
     return }
-  $next.classList.add('current')
-})
+    $next.classList.add('current')
+  })
