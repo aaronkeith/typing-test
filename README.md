@@ -7,6 +7,7 @@ A webapp that allows users to type out a phrase to test their typing skills, and
 * CSS3
 * Javascript
 
-##Screen Capture
+## Screen Capture
 
+![typing test_readme](https://user-images.githubusercontent.com/24850718/35834074-ce01d52e-0a88-11e8-8f33-17c0a2c9274a.gif)
 
