@@ -8,33 +8,113 @@
 
 .container {
   display: relative;
-  max-width: 996px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 header h1 {
-  text-align: center;
   margin-top: 40px;
-  padding: 27px;
-  color: #47713a;
+  padding: 7px;
+  text-align: center;
+  color: #393a40;
   font-size: 3rem;
-  border: 2px solid #ddd;
+}
+
+hr {
+  margin: 15px auto;
+  border-width: 1px;
+  border-style: inset;
+}
+
+#instructions {
+  padding: 10px;
+  text-align: center;
+  color: #393a40;
+  line-height: 1.4;
 }
 
 section > p {
-
-  margin-top: 10px;
-  padding: 5vh 2vw;
-
-  margin-top: 10px;
-  height: 20vh;
-  font-size: 37px;
-  color: #444;
-  border: 2px solid #ddd;
+  height: 100%;
+  margin-top: 15px;
+  padding: 30px 3px;
   text-align: center;
+  color: #444;
+  box-shadow: 0 0 3px 2px rgba(0,0,0,0.49);
+  font-size: 35px;
 }
 
 .current {
+  color: #109df7;
+  border-bottom: 3px solid #333;
+  background-color: #ddd;
+  font-size: 47px;
   font-weight: bold;
-  color: #e88715;
+}
+
+.correct {
+  color: #217a13;
+}
+
+.wrong {
+  color: #aa2828;
+  /*background-color: #aa2828;*/
+  border-bottom: 2px solid #aa2828;
+}
+
+#score {
+  margin-top: 30px;
+  text-align: center;
+  color: #393a40;
+  font-size: 23px;
+}
+article.container {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 100%;
+  margin: 5px auto;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#score-box > div {
+  font-size: 14px;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.score-container > div {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin-top: 4px;
+  text-align: center;
+  opacity: 0.7;
+  background: #eee;
+  box-shadow: 0 0 3px 2px rgba(0,0,0,0.17);
+  font-size: 27px;
+  justify-content: center;
+  align-items: center;
+}
+
+div #newPhrase {
+  margin-top: 35px;
+}
+
+button {
+  display: flex;
+  height: 35px;
+  margin: 95 auto;
+  padding: 7px;
+  text-align: center;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 0 3px 2px rgba(0,0,0,0.17);
+  justify-content: center;
 }
